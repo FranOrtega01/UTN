@@ -1,0 +1,78 @@
+package PRINCIPAL;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+import javax.swing.border.LineBorder;
+
+import java.awt.event.ActionListener;
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+
+public class VentanaEj1 extends JFrame{
+	private JTextField txtNombre;
+	private JTextField txtApellido;
+	private JTextField txtTelefono;
+	private JTextField txtFecha;
+	public VentanaEj1() {
+		setTitle("Contactos");
+		getContentPane().setLayout(null);
+		setBounds(500,250,400,320);
+		
+		JLabel lblNombre = new JLabel("Nombre");
+		lblNombre.setBounds(41, 34, 46, 14);
+		getContentPane().add(lblNombre);
+		
+		JLabel lblApellido = new JLabel("Apellido");
+		lblApellido.setBounds(41, 70, 46, 14);
+		getContentPane().add(lblApellido);
+		
+		JLabel lblTelefono = new JLabel("Telefono");
+		lblTelefono.setBounds(41, 107, 46, 14);
+		getContentPane().add(lblTelefono);
+		
+		JLabel lblFecha = new JLabel("Fecha Nac.");
+		lblFecha.setBounds(40, 147, 63, 14);
+		getContentPane().add(lblFecha);
+		
+		JLabel lblDatos = new JLabel("Los datos ingresados fueron:");
+		lblDatos.setBounds(41, 233, 172, 14);
+		getContentPane().add(lblDatos);
+		
+		txtNombre = new JTextField();
+		txtNombre.setBounds(123, 31, 181, 20);
+		getContentPane().add(txtNombre);
+		txtNombre.setColumns(10);
+		
+		txtApellido = new JTextField();
+		txtApellido.setColumns(10);
+		txtApellido.setBounds(123, 67, 181, 20);
+		getContentPane().add(txtApellido);
+		
+		txtTelefono = new JTextField();
+		txtTelefono.setColumns(10);
+		txtTelefono.setBounds(123, 104, 181, 20);
+		getContentPane().add(txtTelefono);
+		
+		txtFecha = new JTextField();
+		txtFecha.setColumns(10);
+		txtFecha.setBounds(123, 144, 181, 20);
+		getContentPane().add(txtFecha);
+		
+		JButton btnMostrar = new JButton("Mostrar");
+		btnMostrar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				boolean valido = true;
+				if (txtNombre.getText().trim().isEmpty()) {
+		            txtNombre.setBorder(new LineBorder(Color.red,1));
+		            valido = false;
+		        } else {
+		            txtNombre.setBackground(Color.WHITE);
+		        }
+			}
+		});
+		btnMostrar.setBounds(266, 188, 89, 23);
+		getContentPane().add(btnMostrar);
+	}
+}

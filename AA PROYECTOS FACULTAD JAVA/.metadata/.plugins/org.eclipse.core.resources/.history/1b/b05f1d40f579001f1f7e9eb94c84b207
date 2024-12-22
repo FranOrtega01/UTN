@@ -1,0 +1,26 @@
+package ejemplo2;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Ventana extends JFrame {
+	
+	JButton btn;
+	
+	public Ventana(int x, int y, int width, int height, String title) {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(x, y , width, height);
+		setTitle(title);
+		
+		btn = new JButton();
+		btn.setText("Aceptar");
+		btn.setBounds(10, 15, 140, 30);
+		
+		setLayout(null);
+		getContentPane().add(btn);
+	}
+	
+	public void Visibility (boolean estado) {
+		setVisible(estado);
+	}
+}

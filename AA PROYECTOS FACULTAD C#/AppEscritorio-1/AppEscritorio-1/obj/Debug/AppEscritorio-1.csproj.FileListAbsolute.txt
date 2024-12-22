@@ -1,0 +1,10 @@
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\bin\Debug\AppEscritorio-1.exe.config
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\bin\Debug\AppEscritorio-1.exe
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\bin\Debug\AppEscritorio-1.pdb
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\obj\Debug\AppEscritorio-1.csproj.AssemblyReference.cache
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\obj\Debug\AppEscritorio_1.Form1.resources
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\obj\Debug\AppEscritorio_1.Properties.Resources.resources
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\obj\Debug\AppEscritorio-1.csproj.GenerateResource.cache
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\obj\Debug\AppEscritorio-1.csproj.CoreCompileInputs.cache
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\obj\Debug\AppEscritorio-1.exe
+C:\Users\orteg\Desktop\Workspace\AA\AppEscritorio-1\AppEscritorio-1\obj\Debug\AppEscritorio-1.pdb

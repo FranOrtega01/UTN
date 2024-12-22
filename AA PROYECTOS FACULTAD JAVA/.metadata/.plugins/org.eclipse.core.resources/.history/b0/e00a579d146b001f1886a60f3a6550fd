@@ -1,0 +1,14 @@
+package ejercicio2;
+
+public class Messi {
+	private String nacionalidad;
+	public Messi() {
+		
+	}
+	
+	public Messi(String n) {
+		this.nacionalidad = n;
+	}
+	
+	
+}

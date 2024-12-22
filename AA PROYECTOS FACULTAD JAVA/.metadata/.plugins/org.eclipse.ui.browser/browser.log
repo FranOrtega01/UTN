@@ -1,0 +1,97 @@
+
+dic. 10, 2024 18:37:17.09 NEW SESSION
+dic. 10, 2024 18:37:17.09 Created TensorFlow Lite XNNPACK delegate for CPU.
+dic. 10, 2024 18:37:17.20 [16296:21576:1210/183717.205:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:37:21.37 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+dic. 10, 2024 18:37:44.14 [16296:21576:1210/183744.147:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:38:32.02 [16296:21576:1210/183832.027:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:40:07.87 [16296:21576:1210/184007.878:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:41:49.98 Created TensorFlow Lite XNNPACK delegate for CPU.
+dic. 10, 2024 18:41:50.14 [16888:13220:1210/184150.141:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:41:57.98 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+dic. 10, 2024 18:42:19.91 [16888:13220:1210/184219.910:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:43:11.45 [16888:13220:1210/184311.456:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:44:51.58 [16888:13220:1210/184451.584:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:47:17.15 Created TensorFlow Lite XNNPACK delegate for CPU.
+dic. 10, 2024 18:47:17.29 [4332:19540:1210/184717.295:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:47:29.74 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+dic. 10, 2024 18:47:40.65 [4332:19540:1210/184740.653:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:48:39.04 [4332:19540:1210/184839.048:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:50:36.93 [4332:19540:1210/185036.935:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:53:30.74 [4332:19540:1210/185330.743:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 18:59:31.68 [4332:19540:1210/185931.681:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+dic. 10, 2024 23:27:52.16 NEW SESSION
+dic. 10, 2024 23:27:52.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+dic. 10, 2024 23:27:52.36 [16356:17704:1210/232752.366:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:28:14.66 [16356:17704:1210/232814.668:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:28:24.31 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+dic. 10, 2024 23:29:04.61 [16356:17704:1210/232904.610:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:30:57.31 [16356:17704:1210/233057.316:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:34:33.50 [16356:17704:1210/233433.509:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:35:35.57 Created TensorFlow Lite XNNPACK delegate for CPU.
+dic. 10, 2024 23:35:35.79 [17296:6988:1210/233535.791:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:35:58.21 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+dic. 10, 2024 23:36:05.27 [17296:6988:1210/233605.279:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:37:00.24 [17296:6988:1210/233700.244:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:38:24.03 [17296:6988:1210/233824.034:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:41:24.53 [17296:6988:1210/234124.537:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 10, 2024 23:47:07.72 [17296:6988:1210/234707.727:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 11, 2024 24:07:15.58 [17296:11404:1211/000715.581:ERROR:CONSOLE(1)] "Cannot find context with specified id", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+dic. 11, 2024 24:07:15.58 [17296:11404:1211/000715.581:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: Cannot find context with specified id", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+dic. 11, 2024 24:07:38.70 [17296:11404:1211/000738.706:ERROR:CONSOLE(1)] "Cannot find context with specified id", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+dic. 11, 2024 24:07:38.70 [17296:11404:1211/000738.706:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: Cannot find context with specified id", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+dic. 11, 2024 24:09:39.68 [17296:11404:1211/000939.686:ERROR:CONSOLE(1)] "Cannot find context with specified id", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+dic. 11, 2024 24:09:39.68 [17296:11404:1211/000939.686:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: Cannot find context with specified id", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+dic. 11, 2024 24:09:39.68 [17296:11404:1211/000939.686:ERROR:CONSOLE(1)] "Cannot find context with specified id", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+dic. 11, 2024 24:09:39.68 [17296:11404:1211/000939.686:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: Cannot find context with specified id", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+dic. 11, 2024 24:13:57.45 [17296:11404:1211/001357.456:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Unsupported URL scheme"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+dic. 11, 2024 24:13:57.47 [17296:11404:1211/001357.472:ERROR:CONSOLE(1)] "Request Runtime.evaluate failed. {"code":-32602,"message":"uniqueContextId not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+dic. 11, 2024 24:13:57.47 [17296:11404:1211/001357.472:ERROR:CONSOLE(1)] "uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/core/sdk/sdk.js (1)
+dic. 11, 2024 24:13:57.47 [17296:11404:1211/001357.472:ERROR:CONSOLE(1)] "Extension server error: Inspector protocol error: uniqueContextId not found", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+dic. 11, 2024 24:13:57.48 [17296:11404:1211/001357.480:ERROR:CONSOLE(1)] "Received error with code E_PROTOCOLERROR while checking if react has loaded: "Inspector protocol error: %s"", source: chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/main.js (1)
+
+dic. 12, 2024 09:20:54.71 NEW SESSION
+dic. 12, 2024 09:20:54.71 [19772:18748:1212/092054.717:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 09:20:55.15 Created TensorFlow Lite XNNPACK delegate for CPU.
+dic. 12, 2024 09:20:56.48 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+dic. 12, 2024 09:21:23.76 [19772:18748:1212/092123.764:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 09:22:07.64 [19772:18748:1212/092207.645:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 09:23:48.22 [19772:18748:1212/092348.225:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 09:26:42.26 [19772:18748:1212/092642.269:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 09:32:12.61 [19772:9752:1212/093212.616:ERROR:CONSOLE(1)] "Unknown VE context: chrome-extension://gighmmpiobklfepjocnamgkkbiglidomAdBlock    at Module.Ne (devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js:1:87243)
+dic. 12, 2024 09:32:12.61     at Ii.registerLoggablesWithin (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:221680)
+dic. 12, 2024 09:32:12.61     at Ii.innerShow (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:222979)
+dic. 12, 2024 09:32:12.61     at Ii.show (devtools://devtools/bundled/devtools-frontend/front_end/ui/legacy/legacy.js:1:221432)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+dic. 12, 2024 09:32:18.57 [19772:18748:1212/093218.570:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 09:56:32.47 [19772:18748:1212/095632.474:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+dic. 12, 2024 09:56:35.59 [19772:18748:1212/095635.594:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 09:57:08.05 [19772:18748:1212/095708.056:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 09:58:12.81 [19772:18748:1212/095812.813:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 09:58:19.37 [19772:18748:1212/095819.377:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 09:58:43.85 [22356:14656:1212/095843.856:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+dic. 12, 2024 09:58:45.03 Created TensorFlow Lite XNNPACK delegate for CPU.
+dic. 12, 2024 10:09:30.49 Created TensorFlow Lite XNNPACK delegate for CPU.
+dic. 12, 2024 10:09:30.62 [7280:5344:1212/100930.627:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 10:09:51.13 [7280:5344:1212/100951.129:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 10:10:02.70 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+dic. 12, 2024 10:10:41.63 [7280:5344:1212/101041.632:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 10:12:17.65 [7280:5344:1212/101217.658:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 10:16:17.25 [7280:5344:1212/101617.259:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 10:24:10.13 [7280:5344:1212/102410.139:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+dic. 12, 2024 10:50:39.61 [7280:5344:1212/105039.613:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+dic. 12, 2024 10:50:39.63 [7280:5344:1212/105039.638:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 10:50:43.68 [7280:5344:1212/105043.687:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 10:51:03.25 [7280:5344:1212/105103.256:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 10:51:07.48 [7280:5344:1212/105107.489:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 10:51:10.59 [7280:5344:1212/105110.595:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 10:51:21.69 [7280:5344:1212/105121.691:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 10:52:21.83 [7280:5344:1212/105221.832:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 10:54:08.09 [7280:5344:1212/105408.091:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 10:57:16.82 [7280:5344:1212/105716.826:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 11:03:32.78 [7280:5344:1212/110332.782:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 11:03:33.15 [7280:5344:1212/110333.158:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 11:03:37.19 [7280:5344:1212/110337.193:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 11:03:46.15 [7280:5344:1212/110346.154:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 11:04:07.29 [7280:5344:1212/110407.290:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+dic. 12, 2024 11:13:51.28 [7280:5344:1212/111351.288:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105

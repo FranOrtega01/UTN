@@ -1,0 +1,85 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+     <%@page import="java.util.List"%>
+    <%@page import="entidad.*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Mis Movimientos</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="grid-body">
+<%@include file="./MenuUsuario.jsp" %>
+<main> 
+<h1>Mis Movimientos</h1>
+
+ <%
+    	String nro = (String)reques.getParam("Nro");
+ 		List<Movimiento> lista = (List<Movimiento>)request.getAttribute("listaMov");
+        if (lista == null || lista.isEmpty()) {
+    %>
+        <p>No hay ningún movmiento.</p>
+    <%
+        } else {
+    %>
+
+   <table border="1">
+<tr>
+<th>Fecha</th>
+<th>Importe</th>
+<th>Detalle</th>
+<th>Tipo de Movimiento</th>
+</tr>
+
+        <%
+            for (Movimiento m : lista) {
+           
+        %>
+        <tr>
+			<td><%= m.getFechaString() %></td>
+			<td><%= ( m.getImporte() > 0 ? "+" : "" ) + m.getImporte() %></td>
+			<td><%= m.getDetalle() %></td>
+			<td><%= m.getTipoMovimiento().getDescripcion() %></td>
+			</tr>
+        <%
+            }
+        %>
+    </table>
+
+<%
+        }
+    %> 
+    
+<% 
+    int paginaActual = (int) request.getAttribute("paginaActualMovimientos");
+    int totalPaginas = (int) request.getAttribute("totalPaginasMovimientos");
+%>
+
+	<div>
+		<% if (paginaActual > 1) { %>
+    <a
+        href="ServletCuenta?Param=Movimientos&Nro=<%= nro %>&pagina=<%= (paginaActual - 1) %>">
+        
+	Anterior
+    </a>
+<% } %>
+
+		<% for (int i = 1; i <= totalPaginas; i++) { %>
+		<% if (i == paginaActual) { %>
+		<b><%= i %></b>
+		<% } else { %>
+		<a href="ServletCuenta?Param=Movimientos&pagina=<%= i %>"><%= i %></a>
+		<% } %>
+		<% } %>
+
+		<% if (paginaActual < totalPaginas) { %>
+		<a
+			href="ServletCuenta?Param=Movimientos&pagina=<%= paginaActual + 1 %>">Siguiente</a>
+		<% } %>
+	</div>
+
+<a href="">Siguiente Página</a>
+</main>
+</body>
+</html>

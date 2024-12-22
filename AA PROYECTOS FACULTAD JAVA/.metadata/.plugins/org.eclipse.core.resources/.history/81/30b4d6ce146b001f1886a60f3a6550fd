@@ -1,0 +1,9 @@
+package ejercicio2;
+
+public class Barcelona {
+	private String fechaClub;
+
+	@Override
+	public String toString() {
+		return "Fecha: " + fechaClub;
+}

@@ -1,0 +1,18 @@
+package negocio;
+
+import java.util.List;
+import entidad.*;
+
+public interface ClienteNeg {
+	public boolean insert(Cliente cliente);
+    public boolean update(Cliente cliente);
+    public boolean delete(Cliente cliente);
+    public List<Cliente> readAll();
+	public List<Cliente> readById(int id);
+	public List<Cliente> readByApellido(String apellido);
+	public List<Cliente> readByNombre(String nombre);
+	public int obtenerTotalUsuarios();
+	public int obtenerTotalCuentas();
+	public double obtenerTotalDineroDepositado();
+	public String obtenerMesConMayorMovimientos();
+}

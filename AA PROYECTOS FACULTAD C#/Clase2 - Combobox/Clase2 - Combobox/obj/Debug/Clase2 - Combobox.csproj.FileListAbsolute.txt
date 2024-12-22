@@ -1,0 +1,10 @@
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\bin\Debug\Clase2 - Combobox.exe.config
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\bin\Debug\Clase2 - Combobox.exe
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\bin\Debug\Clase2 - Combobox.pdb
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\obj\Debug\Clase2 - Combobox.csproj.AssemblyReference.cache
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\obj\Debug\Clase2___Combobox.Form1.resources
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\obj\Debug\Clase2___Combobox.Properties.Resources.resources
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\obj\Debug\Clase2 - Combobox.csproj.GenerateResource.cache
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\obj\Debug\Clase2 - Combobox.csproj.CoreCompileInputs.cache
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\obj\Debug\Clase2 - Combobox.exe
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase2 - Combobox\Clase2 - Combobox\obj\Debug\Clase2 - Combobox.pdb

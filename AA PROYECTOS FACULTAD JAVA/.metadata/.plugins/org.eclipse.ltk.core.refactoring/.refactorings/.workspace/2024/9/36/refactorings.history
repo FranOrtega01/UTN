@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;TP2_GRUPO_6.zip_expanded&apos;" deleteContents="false" description="Delete resource &apos;TP2_GRUPO_6.zip_expanded&apos;" element1="/TP2_GRUPO_6.zip_expanded" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1725577612200"/>
+</session>

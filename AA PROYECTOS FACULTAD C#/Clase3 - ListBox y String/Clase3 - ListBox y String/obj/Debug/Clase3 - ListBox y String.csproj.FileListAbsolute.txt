@@ -1,0 +1,11 @@
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\bin\Debug\Clase3 - ListBox y String.exe.config
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\bin\Debug\Clase3 - ListBox y String.exe
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\bin\Debug\Clase3 - ListBox y String.pdb
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\obj\Debug\Clase3 - ListBox y String.csproj.AssemblyReference.cache
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\obj\Debug\Clase3___ListBox_y_String.Properties.Resources.resources
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\obj\Debug\Clase3 - ListBox y String.csproj.GenerateResource.cache
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\obj\Debug\Clase3 - ListBox y String.csproj.CoreCompileInputs.cache
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\obj\Debug\Clase3 - ListBox y String.exe
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\obj\Debug\Clase3 - ListBox y String.pdb
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\obj\Debug\Clase3___ListBox_y_String.Screen2.resources
+C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD C#\Clase3 - ListBox y String\Clase3 - ListBox y String\obj\Debug\Clase3___ListBox_y_String.Screen1.resources

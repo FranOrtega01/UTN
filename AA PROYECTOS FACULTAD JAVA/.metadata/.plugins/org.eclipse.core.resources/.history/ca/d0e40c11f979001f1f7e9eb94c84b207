@@ -1,0 +1,41 @@
+package ejemplo2;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Ventana extends JFrame {
+
+	private static final long serialVersionUID = 1L;
+	JButton btn;
+	
+	public Ventana(int x, int y, int width, int height, String title) {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(x, y , width, height);
+		setTitle(title);
+		
+		btn = new JButton();
+		btn.setText("Aceptar");
+		btn.setBounds(10, 15, 140, 30);
+		btn.addActionListener(new eventBtn());
+		
+		setLayout(null);
+		getContentPane().add(btn);
+	}
+	
+	public void Visibility (boolean estado) {
+		setVisible(estado);
+	}
+}
+
+
+class eventBtn implements ActionListener{
+
+	public void actionPerformed(ActionEvent arg0) {
+		System.out.println("Esta presionando el boton");
+		
+	}
+	
+}

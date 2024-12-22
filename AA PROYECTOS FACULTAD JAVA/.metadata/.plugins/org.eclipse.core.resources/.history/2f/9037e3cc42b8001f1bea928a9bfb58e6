@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+        <%@page import="java.util.List"%>
+    <%@page import="entidad.*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Informe Estadístico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="grid-body">
+    <%@include file="./MenuAdmin.jsp" %>
+    
+    
+    
+    <main style="padding: 20px">
+        <h2>Informe Estadístico</h2>
+        <p style="margin: 15px 0"><b>Usuarios Registrados:</b> ${usuariosRegistrados}</p>
+        <p style="margin: 15px 0"><b>Cuentas Creadas:</b> ${cuentasCreadas}</p>
+        <p style="margin: 15px 0"><b>Dinero Total Depositado:</b> $${dineroDepositado}</p>
+        <p style="margin: 15px 0"><b>Mes con Mayor Cantidad de Movimientos:</b> ${mesMayorMovimientos}</p>
+        
+       	<b style="margin: 15px 0">Informe por rango de fechas</b>
+        <form action="ServletEstadistico" method="get">
+        	
+        	<input type="date" name="fechaInicio" id="fechaInicio">
+        	-
+        	<input type="date" name="fechaFin" id="fechaFin">
+        	<button name="generarInforme" value="" >Generar Informe</button>
+        </form>
+        
+        <%
+        List<Cuenta> cuentasFiltradas = null;
+    	if(session.getAttribute("filtroCuentas") != null )  {
+    		cuentasFiltradas = (List<Cuenta>) session.getAttribute("filtroCuentas");
+    	}
+        
+//         if(cuentasFiltradas != null || !cuentasFiltradas.isEmpty()  ){
+        	
+//         }
+    %>
+    </main>
+</body>
+</html>

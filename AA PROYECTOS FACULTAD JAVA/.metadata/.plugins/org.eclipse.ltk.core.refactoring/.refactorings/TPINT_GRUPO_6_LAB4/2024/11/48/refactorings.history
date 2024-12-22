@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;daoImpl.MovimientoDaoImp&apos; to &apos;MovimientoDaoImpl&apos;&#x0D;&#x0A;- Original project: &apos;TPINT_GRUPO_6_LAB4&apos;&#x0D;&#x0A;- Original element: &apos;daoImpl.MovimientoDaoImp&apos;&#x0D;&#x0A;- Renamed element: &apos;daoImpl.MovimientoDaoImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MovimientoDaoImp&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;daoImpl{MovimientoDaoImp.java[MovimientoDaoImp" matchStrategy="1" name="MovimientoDaoImpl" qualified="false" references="true" similarDeclarations="false" stamp="1733009976766" textual="true" version="1.0"/>
+</session>

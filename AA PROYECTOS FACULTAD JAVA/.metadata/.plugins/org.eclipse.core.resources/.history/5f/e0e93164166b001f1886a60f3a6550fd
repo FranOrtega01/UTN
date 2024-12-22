@@ -1,0 +1,27 @@
+package ejercicio2;
+
+public class Messi {
+	private String nacionalidad;
+	private Barcelona barcelona;
+	
+	public Messi() {
+		
+	}
+	
+	public Messi(String n) {
+		this.nacionalidad = n;
+	}
+
+	public String getNacionalidad() {
+		return nacionalidad;
+	}
+
+	public void setNacionalidad(String nacionalidad) {
+		this.nacionalidad = nacionalidad;
+	}
+	
+	public String toString() {
+		return "Nacionalidad: " + nacionalidad;
+	}
+	
+}

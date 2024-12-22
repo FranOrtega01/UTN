@@ -1,0 +1,16 @@
+package dao;
+import java.util.List;
+import entidad.Cuenta;
+
+public interface CuentaDao {
+    public boolean insert(Cuenta cuenta);
+    public boolean update(Cuenta cuenta);
+    public boolean delete(Cuenta cuenta);
+    List<Cuenta> readAll();
+    List<Cuenta> readNro(int nro);
+    List<Cuenta> readIdCliente(int nro);
+    List<Cuenta> readCBU(String cbu);
+    List<Cuenta> readTipoCuenta(int tipoCuenta);
+    int getCuentaByCBU(String cbu);
+    int getCuentaByID(int id);
+}

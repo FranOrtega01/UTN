@@ -1,0 +1,17 @@
+package dao;
+import java.util.List;
+import entidad.Cliente;
+
+public interface ClienteDao {
+    public Respuesta insert(Cliente cliente);
+    public boolean update(Cliente cliente);
+    public boolean delete(Cliente cliente);
+    List<Cliente> readAll();
+    List<Cliente> readById(int id);
+    List<Cliente> readByApellido(String apellido);
+	List<Cliente> readByNombre(String nombre);
+	public int obtenerTotalUsuarios();
+	public int obtenerTotalCuentas();
+	public double obtenerTotalDineroDepositado();
+	public String obtenerMesConMayorMovimientos();
+}

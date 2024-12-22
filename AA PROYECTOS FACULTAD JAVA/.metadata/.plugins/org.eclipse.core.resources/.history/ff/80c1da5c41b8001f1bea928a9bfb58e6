@@ -1,0 +1,84 @@
+package servlets;
+
+import java.io.IOException;
+import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.text.SimpleDateFormat;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import entidad.*;
+import negocio.*;
+import negocioImpl.*;
+
+
+
+/**
+ * Servlet implementation class ServletEstadistico
+ */
+@WebServlet("/ServletEstadistico")
+public class ServletEstadistico extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ServletEstadistico() {
+        super();
+        
+        
+    }
+
+	
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        CuentaNeg CueNeg = new CuentaNegImpl();
+        List<Cuenta> cuentas = CueNeg.readAll();
+        
+        try {
+            // Formateador para convertir String a Date
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+            // Obtener las fechas de los atributos de solicitud
+            String fechaInicioStr = request.getParameter("fechaInicio");
+            String fechaFinStr = request.getParameter("fechaFin");
+
+            if (fechaInicioStr != null && fechaFinStr != null) {
+                // Convertir las fechas de inicio y fin
+                Date fechaInicio = sdf.parse(fechaInicioStr);
+                Date fechaFin = sdf.parse(fechaFinStr);
+
+                // Filtrar las cuentas usando streams
+                List<Cuenta> filtroCuentas = cuentas.stream()
+                        .filter(cuenta -> {
+                            Date fechaCreacion = cuenta.getFechaCreacion();
+                            return fechaCreacion != null &&
+                                   !fechaCreacion.before(fechaInicio) &&
+                                   !fechaCreacion.after(fechaFin);
+                        })
+                        .collect(Collectors.toList());
+
+                // Obtener la sesión y guardar el atributo
+                HttpSession session = request.getSession();
+                session.setAttribute("filtroCuentas", filtroCuentas);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // Redirigir a la vista o procesar la respuesta
+        RequestDispatcher rd = request.getRequestDispatcher("/rutaDeTuVista.jsp");
+        rd.forward(request, response);
+    }
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

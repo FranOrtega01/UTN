@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\zzlistarClientes"/>
+		<item value="C:\Users\orteg\Desktop\zzlistarClientes"/>
+		<item value="C:\Users\orteg\Desktop\TPINT_GRUPO_6_LAB4"/>
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\TPINT_GRUPO_6_LAB4"/>
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\AppWeb_Servlet_I"/>
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\AppWeb_JSP_I"/>
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\ZZTP7_GRUPO_6 V1.1\TP7_GRUPO_6"/>
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\TP6_Grupo_6"/>
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\AppEscritorio_V"/>
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\AppConsolaJDBC"/>
+		<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP5"/>
+		<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP5_Grupo6"/>
+		<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP5\TP5_Grupo6"/>
+		<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP4\TP4 v3.1"/>
+		<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP4\TP4_Grupo6_L4"/>
+		<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP3\TP3_Grupo_6"/>
+		<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\TP1_V6"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="710" key="DIALOG_X_ORIGIN"/>
+		<item value="252" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP2_GRUPO_6"/>
+			<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP2 v1.6"/>
+			<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP2_Grupo_6-2"/>
+			<item value="C:\Users\orteg\Desktop\UTN\4 CUATRIMESTRE\LAB IV\TP2_Grupo_6-3"/>
+			<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\AppClase01"/>
+			<item value="C:\Users\orteg\Desktop\Workspace\AA PROYECTOS FACULTAD JAVA\TP1_V6"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1722900449971" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.views.markers.FiltersConfigurationDialog">
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="580" key="DIALOG_HEIGHT"/>
+		<item value="706" key="DIALOG_X_ORIGIN"/>
+		<item value="142" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
